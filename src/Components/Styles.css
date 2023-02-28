@@ -72,6 +72,7 @@ a {
     color: white;
     align-items: center;
     justify-content: space-between;
+    transition: all 500ms ease-in-out;
   }
   
   .content .left {
@@ -408,11 +409,13 @@ a {
     font-family: "League Spartan", sans-serif;
     font-weight: 700;
     font-size: 13px;
+    border-bottom: 5px solid transparent;
   }
 
   .mobile-views .selected {
     color: white;
-    border-bottom: 5px solid var(--clr-primary-color);
+    border-color: var(--clr-primary-color);
+    transition: all 500ms ease-in-out;
   }
   
   
@@ -424,11 +427,13 @@ a {
     color: white;
     align-items: center;
     text-align: center;
+    transition: all 500ms ease;
   }
 
   .content .left img {
-    max-width: 224px;
-    max-height: 224px;
+    width: 20rem;
+    height: 20rem;
+    transition: all .3s ease-in-out;
   }
   
   .content .surface {
@@ -491,7 +496,12 @@ a {
     font-weight: 400;
     font-size: 20px;
     gap: 4px;
+  
   }
+  
+  
+  
+  
    
 }
 
