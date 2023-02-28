@@ -93,7 +93,7 @@ function Home() {
   
   const [view, setView] = useState("OVERVIEW");
   const [width, setWidth] = useState<number>(window.innerWidth);
-  const [planet, setPlanet] = useState<string>("Jupiter");
+  const [planet, setPlanet] = useState<string>("Earth");
   
   const [data] = useState<any>({
     Earth: {
