@@ -68,14 +68,14 @@ font-family: 'League Spartan', sans-serif; */
   }
   
   .content {
-    height: max-content;
+    /* height: 500px; */
     margin: 0 165px;
     margin-top: 152px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: white;
     align-items: center;
-    justify-items: end;
+    justify-content: space-between;
   }
   
   .content .left {
@@ -85,6 +85,9 @@ font-family: 'League Spartan', sans-serif; */
   }
   
   .content .right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
   }
   
   .content .title {
