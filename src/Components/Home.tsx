@@ -36,14 +36,14 @@ function DesktopNav({setPlanet} : any) {
     <nav>
         <div className="header">THE PLANETS</div>
         <div className="nav-components">
-          <div onClick={() => setPlanet("Mercury")}>Mercury</div>
-          <div onClick={() => setPlanet("Venus")}>Venus</div>
-          <div onClick={() => setPlanet("Earth")}>Earth</div>
-          <div onClick={() => setPlanet("Mars")}>Mars</div>
-          <div onClick={() => setPlanet("Jupiter")}>Jupiter</div>
-          <div onClick={() => setPlanet("Saturn")}>Saturn</div>
-          <div onClick={() => setPlanet("Uranus")}>Uranus</div>
-          <div onClick={() => setPlanet("Neptune")}>Neptune</div>
+          <div className="Mercury" onClick={() => setPlanet("Mercury")}>Mercury</div>
+          <div className="Venus" onClick={() => setPlanet("Venus")}>Venus</div>
+          <div className="Earth" onClick={() => setPlanet("Earth")}>Earth</div>
+          <div className="Mars" onClick={() => setPlanet("Mars")}>Mars</div>
+          <div className="Jupiter" onClick={() => setPlanet("Jupiter")}>Jupiter</div>
+          <div className="Saturn" onClick={() => setPlanet("Saturn")}>Saturn</div>
+          <div className="Uranus" onClick={() => setPlanet("Uranus")}>Uranus</div>
+          <div className="Neptune" onClick={() => setPlanet("Neptune")}>Neptune</div>
         </div>
       </nav>
   )

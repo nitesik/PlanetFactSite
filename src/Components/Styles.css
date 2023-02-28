@@ -27,7 +27,7 @@ a {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 32px 22px;
+    padding: 0 22px;
     align-items: center;  
   }
   
@@ -47,21 +47,23 @@ a {
   .nav-components {
     display: flex;
     gap: 33px;
-    
     text-transform: uppercase;
   }
   
   .nav-components > div {
     font-family: 'League Spartan', sans-serif;
+    padding: 32px 0;
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 1px;
+    border-top: 5px solid transparent;
   }
   
   .nav-components > div:hover {
-    opacity: 0.5;
+    color: rgba(100%, 100%, 100%, 0.5);
     cursor: pointer;
-    transition: all 200ms ease-in-out;
+    border-top: 5px solid var(--clr-primary-color);
+    transition: all 500ms ease-in-out;
   }
   
   .content {
@@ -189,7 +191,8 @@ a {
     flex-direction: column;
     justify-content: space-between;
     gap: 40px;
-    padding: 32px 22px;
+    padding: 0 22px;
+    padding-top: 32px;
     align-items: center;  
   }
   
@@ -198,6 +201,7 @@ a {
     width: 99.5%;
     position: absolute;
     left: 0;
+    margin: 0;
   }
   
   .header {
@@ -218,12 +222,15 @@ a {
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 1px;
+    padding-bottom: 32px;
+    border-bottom: 5px solid transparent;
   }
   
   .nav-components > div:hover {
-    opacity: 0.5;
+    color: rgba(100%, 100%, 100%, 0.5);
     cursor: pointer;
     transition: all 200ms ease-in-out;
+    border-bottom: 5px solid var(--clr-primary-color);
   }
   
   .content {
