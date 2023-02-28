@@ -101,11 +101,11 @@ function Home() {
       overview: planet_earth,
       internal: planet_earth_internal,
       geology: geology_earth,
-      rotation: "1.03 DAYS",
-      revolution: "1.88 YEARS",
-      radius: "3,389.5 KM",
+      rotation: "0.99 DAYS",
+      revolution: "365.26 DAYS",
+      radius: "6,371 KM",
       wikipedia: "https://en.wikipedia.org/wiki/Earth",
-      temperature: "-28°C "
+      temperature: "16°C "
     },
     Mercury: {
       description: "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
