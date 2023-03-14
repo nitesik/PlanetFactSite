@@ -1,30 +1,39 @@
 import "./Styles.css";
 import hamburger from "./Images/icon-hamburger.svg";
 import chevron from "./Images/icon-chevron.svg";
+
 import planet_earth from "./Images/planet-earth.svg";
 import planet_earth_internal from "./Images/planet-earth-internal.svg";
 import geology_earth from "./Images/geology-earth.png";
+
 import planet_mercury from "./Images/planet-mercury.svg";
 import planet_mercury_internal from "./Images/planet-mercury-internal.svg";
 import geology_mercury from "./Images/geology-mercury.png";
+
 import planet_venus from "./Images/planet-venus.svg";
 import planet_venus_internal from "./Images/planet-venus-internal.svg";
 import geology_venus from "./Images/geology-venus.png";
+
 import planet_mars from "./Images/planet-mars.svg";
 import planet_mars_internal from "./Images/planet-mars-internal.svg";
 import geology_mars from "./Images/geology-mars.png";
+
 import planet_jupiter from "./Images/planet-jupiter.svg";
 import planet_jupiter_internal from "./Images/planet-jupiter-internal.svg";
 import geology_jupiter from "./Images/geology-jupiter.png";
+
 import planet_saturn from "./Images/planet-saturn.svg";
 import planet_saturn_internal from "./Images/planet-saturn-internal.svg";
 import geology_saturn from "./Images/geology-saturn.png";
+
 import planet_uranus from "./Images/planet-uranus.svg";
 import planet_uranus_internal from "./Images/planet-uranus-internal.svg";
 import geology_uranus from "./Images/geology-uranus.png";
+
 import planet_neptune from "./Images/planet-neptune.svg";
 import planet_neptune_internal from "./Images/planet-neptune-internal.svg";
 import geology_neptune from "./Images/geology-neptune.png";
+
 import icon_source from "./Images/icon-source.svg";
 import { useState, useEffect } from "react";
 

@@ -4,6 +4,10 @@
   --clr-background-color: #070724;
 }
 
+* {
+  transition: all 200ms ease-in-out;
+}
+
 a {
   all: unset;
   border-bottom: 1px solid rgba(100%, 100%, 100%, 0.2);
@@ -20,7 +24,7 @@ a {
   
   .container {
     min-height: 100vh;
-    width: 1440px;
+    max-width: 1440px;
   }
   
   nav {
