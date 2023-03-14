@@ -39,20 +39,20 @@ import { useState, useEffect } from "react";
 
 
 
-function DesktopNav({setPlanet} : any) {
+function DesktopNav({setPlanet, planet} : any) {
 
   return (
     <nav>
         <div className="header">THE PLANETS</div>
         <div className="nav-components">
-          <div className="Mercury" onClick={() => setPlanet("Mercury")}>Mercury</div>
-          <div className="Venus" onClick={() => setPlanet("Venus")}>Venus</div>
-          <div className="Earth" onClick={() => setPlanet("Earth")}>Earth</div>
-          <div className="Mars" onClick={() => setPlanet("Mars")}>Mars</div>
-          <div className="Jupiter" onClick={() => setPlanet("Jupiter")}>Jupiter</div>
-          <div className="Saturn" onClick={() => setPlanet("Saturn")}>Saturn</div>
-          <div className="Uranus" onClick={() => setPlanet("Uranus")}>Uranus</div>
-          <div className="Neptune" onClick={() => setPlanet("Neptune")}>Neptune</div>
+          <div className={`Mercury ${planet === "Mercury" ? "select" : ""}`} onClick={() => setPlanet("Mercury")}>Mercury</div>
+          <div className={`Venus ${planet === "Venus" ? "select" : ""}`} onClick={() => setPlanet("Venus")}>Venus</div>
+          <div className={`Earth ${planet === "Earth" ? "select" : ""}`} onClick={() => setPlanet("Earth")}>Earth</div>
+          <div className={`Mars ${planet === "Mars" ? "select" : ""}`} onClick={() => setPlanet("Mars")}>Mars</div>
+          <div className={`Jupiter ${planet === "Jupiter" ? "select" : ""}`} onClick={() => setPlanet("Jupiter")}>Jupiter</div>
+          <div className={`Saturn ${planet === "Saturn" ? "select" : ""}`} onClick={() => setPlanet("Saturn")}>Saturn</div>
+          <div className={`Uranus ${planet === "Uranus" ? "select" : ""}`} onClick={() => setPlanet("Uranus")}>Uranus</div>
+          <div className={`Neptune ${planet === "Neptune" ? "select" : ""}`} onClick={() => setPlanet("Neptune")}>Neptune</div>
         </div>
       </nav>
   )
@@ -205,7 +205,7 @@ function Home() {
   
   return (
     <div className="container">
-      {width >= 700 ? <DesktopNav setPlanet={setPlanet} /> : <MobileNavbar setPlanet={setPlanet} />}
+      {width >= 700 ? <DesktopNav planet={planet} setPlanet={setPlanet} /> : <MobileNavbar setPlanet={setPlanet} />}
       <hr />
       <section>
         <div className={`mobile-views ${planet}`}>
