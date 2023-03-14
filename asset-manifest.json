@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PlanetFactSite/static/css/main.d93bfda5.css",
-    "main.js": "/PlanetFactSite/static/js/main.62d49e7c.js",
+    "main.css": "/PlanetFactSite/static/css/main.09140e7b.css",
+    "main.js": "/PlanetFactSite/static/js/main.62772612.js",
     "static/js/787.ed0e5105.chunk.js": "/PlanetFactSite/static/js/787.ed0e5105.chunk.js",
     "static/media/geology-mercury.png": "/PlanetFactSite/static/media/geology-mercury.aa6732c318454e3fc480.png",
     "static/media/geology-venus.png": "/PlanetFactSite/static/media/geology-venus.484f9dacbeb3b555ffba.png",
@@ -32,12 +32,12 @@
     "static/media/icon-source.svg": "/PlanetFactSite/static/media/icon-source.90231c6845b7449a736412f3da2e3aaa.svg",
     "static/media/icon-hamburger.svg": "/PlanetFactSite/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
     "static/media/icon-chevron.svg": "/PlanetFactSite/static/media/icon-chevron.8915cee97f993fb990aac66c578ad575.svg",
-    "main.d93bfda5.css.map": "/PlanetFactSite/static/css/main.d93bfda5.css.map",
-    "main.62d49e7c.js.map": "/PlanetFactSite/static/js/main.62d49e7c.js.map",
+    "main.09140e7b.css.map": "/PlanetFactSite/static/css/main.09140e7b.css.map",
+    "main.62772612.js.map": "/PlanetFactSite/static/js/main.62772612.js.map",
     "787.ed0e5105.chunk.js.map": "/PlanetFactSite/static/js/787.ed0e5105.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d93bfda5.css",
-    "static/js/main.62d49e7c.js"
+    "static/css/main.09140e7b.css",
+    "static/js/main.62772612.js"
   ]
 }
